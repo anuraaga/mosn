@@ -23,6 +23,8 @@ require (
 	github.com/golang/protobuf v1.5.0
 	github.com/google/cel-go v0.5.1
 	github.com/hashicorp/go-plugin v1.0.1
+	github.com/http-wasm/http-wasm-host-go v0.0.0-20221011003337-81d8f3916f05
+	github.com/http-wasm/http-wasm-host-go/handler/mosn v0.0.0-00010101000000-000000000000
 	github.com/json-iterator/go v1.1.10
 	github.com/juju/errors v0.0.0-20200330140219-3fe23663418f
 	github.com/lestrrat/go-jwx v0.0.0-20180221005942-b7d4802280ae
@@ -67,3 +69,7 @@ require (
 replace github.com/envoyproxy/go-control-plane => github.com/envoyproxy/go-control-plane v0.10.0
 
 replace istio.io/api => istio.io/api v0.0.0-20211103171850-665ed2b92d52
+
+replace github.com/http-wasm/http-wasm-host-go => ../http-wasm-host-go
+
+replace github.com/http-wasm/http-wasm-host-go/handler/mosn => ../http-wasm-host-go/handler/mosn

@@ -23,6 +23,8 @@ import (
 	"strconv"
 	"time"
 
+	_ "github.com/http-wasm/http-wasm-host-go/handler/mosn"
+
 	corev3 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	_ "github.com/envoyproxy/go-control-plane/envoy/extensions/filters/http/router/v3"
 	"github.com/urfave/cli"
